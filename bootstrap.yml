@@ -17,9 +17,9 @@
     - java
 
 - name: Setup basic security practices
-  hosts: secure
+  hosts: security
   remote_user: luke
   roles:
-    - secure
+    - security
   tags:
-    - secure
+    - security
