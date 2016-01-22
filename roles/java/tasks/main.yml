@@ -1,2 +1,2 @@
-- include: dependencies.yml
+- include: acceptbs.yml
 - include: install.yml
