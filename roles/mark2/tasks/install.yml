@@ -14,7 +14,7 @@
     state: link
 
 - name: Create mark2 configuration directory in /etc
-  file: path=/etc/mark2 start=directory
+  file: path=/etc/mark2 state=directory
 
 - name: Generate empty mark2 configuration, opting for per-server configuration instead.
   command: touch /etc/mark2/mark2.properties
