@@ -3,8 +3,9 @@
   git:
     repo: git@github.com:/gsand/mark2
     dest: /usr/local/share/mark2
+    accept_hostkey=yes
   ignore_errors: yes
-
+  
 - name: Install mark2 pip requirements
   pip:
     requirements=/usr/local/share/mark2/requirements.txt
